@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Política de Privacidad</title>
+        <link rel="stylesheet" href="./static/css/style.css">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="Inicio_html.html">
+                <img src="static/img/Logo.jpg" alt="Logo de Bing">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Sobre nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section id="contact-info">
+            <h2>Información de Contacto</h2>
+            <p>Dirección: Calle Principal, Ciudad</p>
+            <p>Teléfono: +34 685 98 56 12</p>
+            <p>Correo Electrónico: rafasuper@empresa.com</p>
+        </section>
+
+        <section id="business-hours">
+            <h2>Horario de Atención</h2>
+            <p>Lunes a Viernes: 9:00 AM - 5:00 PM</p>
+            <p>Sábados y Domingos: Cerrado</p>
+        </section>
+
+        <section class="map">
+            <h2>Nuestra Ubicación</h2>
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                var setting = {"query":"Rincón de la Victoria, España","width":800,"height":600,"satellite":false,"zoom":12,"placeId":"ChIJ0wvPJYlacg0ReUNB8sgw39k","cid":"0xd9df30c8f2414379","coords":[36.7176779,-4.280396],"lang":"es","queryString":"Rincón de la Victoria, España","centerCoord":[36.7176779,-4.280396],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1037565"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=1037565';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="dere">
+            <p>© 2023 Todos los derechos reservados.</p>
+        </div>
+        <div class="info">
+            <a href="Politica de privacidad.html">Política de privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>
